@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+    background-image: url('./images/natural.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Reset default body margin */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    height: 100vh;
+}
+
+.digital_container, .stopwatch_container {
+    border: 2px solid #333;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.digital_container {
+    margin-right: 20px;
+    padding : 45px;
+}
+
+.stopwatch_container {
+    margin-left: 20px;paddi45 : 
+}
+
+#clock, #Date, #Timer {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id = "Date"></div>
+    <div class="container">
+        <div class="digital_container">
+            <h1>Digital Clock</h1>
+            <div id="clock"></div>
+        </div>
+        <div class="stopwatch_container">
+            <h1>Stop Watch</h1>
+            <div id="stop-watch">
+                <div id="Timer">00:00:00</div>
+                <button class="btn" onclick="startClock()">start</button>
+                <button class="btn" onclick="stopClock()">stop</button>
+                <button class="btn" onclick="resetClock()">reset</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
